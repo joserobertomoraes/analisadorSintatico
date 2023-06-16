@@ -1,0 +1,33 @@
+
+*{
+    margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+body{ 
+width: 100%;
+background-color: aqua;
+   
+}
+
+.container{
+    width: 800px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 100px auto;
+}
+
+.texto, .forma{
+    width: 48%;
+    margin-bottom: 2%;
+    background-color: white;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.texto p, .forma p {
+    text-align: center;
+    font-size: 24px;
+}
